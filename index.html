@@ -25,8 +25,71 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<h1>Medicine & Science</h1>
+				</section>
+				<section>
+					<section>
+						<h2>What causes Infection?</h2>
+						<h3 class="fragment fade-up">Germs!</h3>
+						<h4 class="fragment fade-up">And they are really small!!</h4>
+					</section>
+					<section>
+						<h2>Types of germs</h2>
+						<ul>
+							<li class="fragment fade-up">Bacteria</li>
+							<li class="fragment fade-up">Virus</li>
+							<li class="fragment fade-up">Fungi</li>
+						</ul>
+					</section>
+					<section>
+						<p>Medicines are the way we protect ourselves from Germs!</p>
+						<h2>💊💉</h2>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Human Body's in-built defense!</h2>
+						<h1 class="fragment fade-up">Immune System</h1>
+					</section>
+					<section>
+						<h2>Skin</h2>
+						<img class="fragment fade-up" src="./lib/images/skin.jpg" alt="skin">
+					</section>
+					<section>
+						<h2>Macrophage</h2>
+						<h3>(White Blood Cells)</h3>
+						<img class="fragment fade-up" src="./lib/images/macrophage.jpg" alt="macrophage" >
+					</section>
+					<section>
+						<h2>Neutrophil</h2>
+						<img class="fragment fade-up" src="./lib/images/neutrophil.jpg" alt="neutrophil" >
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Vaccines</h2>
+					</section>
+					<section>
+						<p>Injecting an agent that resembles a disease-causing microorganism and is often made from weakened or killed forms of the microbe, its toxins, or one of its surface proteins</p>
+					</section>
+					<section>
+						<h2>Vaccine goes into the blood stream</h2>
+						<ul>
+							<li class="fragment fade-up">Our immune system fights the vaccine</li>
+							<li class="fragment fade-up">Our body generates Memory T cells</li>
+							<li class="fragment fade-up">Our body is immune to the real disease</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Universal Immunization Programme</h2>
+						<ul>
+							<li class="fragment fade-up">Launched in 1985 by Indian Government</li>
+							<li class="fragment fade-up">Vaccination for 12 diseases</li>
+							<li class="fragment fade-up">Every year 27 million children are being vaccinated</li>
+						</ul>
+					</section>
+				</section>
 			</div>
 		</div>
 
@@ -37,12 +100,14 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+				progress: false,
+				transition: 'convex',
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/highlight/highlight.js', async: true }
-				]
+				],
 			});
 		</script>
 	</body>
